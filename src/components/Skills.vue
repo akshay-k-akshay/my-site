@@ -81,7 +81,7 @@ export default {
           title: "Angular",
           percentage: 70,
           icon: "https://img.icons8.com/color/48/000000/angularjs.png",
-          width: "5em",
+          width: "4em",
         },
         {
           title: "GIT",
