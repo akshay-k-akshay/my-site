@@ -71,10 +71,10 @@ export default {
       return {
         firstName: "AKSHAY",
         lastName: "K",
-        description: `I am experienced in leveraging agile frameworks to provide a robust
-        synopsis for high level overviews. Iterative approaches to corporate
-        strategy foster collaborative thinking to further the overall value
-        proposition.`,
+        description: `I am a self taught developer ( MERN, MEVN, MEAN ) open to challenges. 
+        I have seen the worst and best of things which strengthened me as a developer. 
+        So I am capable of solving any problem that comes in my way. 
+        I would like to play with code.`,
         // facebook: "https://facebook.com",
         linkedin: "https://www.linkedin.com/in/akshay--k/",
         github: "https://github.com/akshay-k-akshay",
