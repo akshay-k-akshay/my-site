@@ -24,19 +24,13 @@
               </div>
               <div class="row">
                 <div class="col-md-6">
-                  <img
-                    class="img-fluid img-centered"
-                    :src="`${image}`"
-                    alt=""
-                  />
+                  <ImageSlider :images="images" customStyle="img-centered" />
                 </div>
                 <div class="col-md-6">
-                  <p>
-                    {{ description }}
-                  </p>
+                  <p v-html="description"></p>
                   <ul class="list-inline item-details">
                     <li>
-                      <strong>
+                      <strong v-if="link">
                         <a :href="`${link}`" target="_blank">Source Code</a>
                       </strong>
                     </li>
@@ -53,17 +47,19 @@
                       </strong>
                     </li> -->
                   </ul>
-                  <!-- <button
-                    class="btn btn-general btn-white"
-                    type="button"
-                    data-dismiss="modal"
-                  >
-                    <i class="fa fa-times"></i> Close
-                  </button> -->
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="col-md-12 mb-0">
+          <button
+            class="modal-close-btn btn btn-general btn-white float-right"
+            type="button"
+            data-dismiss="modal"
+          >
+            <i class="fa fa-times"></i> Close
+          </button>
         </div>
       </div>
     </div>
@@ -71,8 +67,12 @@
 </template>
 
 <script>
+import ImageSlider from "./ImageSlider.vue";
 export default {
   name: "Modal",
-  props: ["id", "title", "image", "description", "link"],
+  components: {
+    ImageSlider,
+  },
+  props: ["id", "title", "images", "description", "link"],
 };
 </script>
