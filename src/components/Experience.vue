@@ -22,7 +22,7 @@
               <!-- <i class="fa fa-globe mr-3 text-info"></i> -->
               {{ experience.title }}
             </h4>
-            <p>{{ experience.description }}</p>
+            <p v-html="experience.description"></p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">{{ experience.period }}</span>
@@ -40,40 +40,12 @@ export default {
     experiences() {
       return [
         {
-          title: "Senior Web Developer",
-          description: `Capitalize on low hanging fruit to identify a ballpark value added
-              activity to beta test. Override the digital divide with additional
-              clickthroughs from DevOps. Nanotechnology immersion along the
-              information highway will close the loop on focusing solely on the
-              bottom line.`,
-          period: "March 2019 - Present",
-        },
-        {
-          title: "Senior Web Developer",
-          description: `Capitalize on low hanging fruit to identify a ballpark value added
-              activity to beta test. Override the digital divide with additional
-              clickthroughs from DevOps. Nanotechnology immersion along the
-              information highway will close the loop on focusing solely on the
-              bottom line.`,
-          period: "March 2019 - Present",
-        },
-        {
-          title: "Senior Web Developer",
-          description: `Capitalize on low hanging fruit to identify a ballpark value added
-              activity to beta test. Override the digital divide with additional
-              clickthroughs from DevOps. Nanotechnology immersion along the
-              information highway will close the loop on focusing solely on the
-              bottom line.`,
-          period: "March 2019 - Present",
-        },
-        {
-          title: "Senior Web Developer",
-          description: `Capitalize on low hanging fruit to identify a ballpark value added
-              activity to beta test. Override the digital divide with additional
-              clickthroughs from DevOps. Nanotechnology immersion along the
-              information highway will close the loop on focusing solely on the
-              bottom line.`,
-          period: "March 2019 - Present",
+          title: "Junior Software Engineer",
+          description: `
+          &ensp;&ensp;&ensp;&ensp;Junior Software Engineer at <b>Codelattice Digital Solutions Pvt Ltd </b>.
+           Developing and Managing Web apps MEAN stack. 
+          `,
+          period: "January 2021 - Present",
         },
       ];
     },
