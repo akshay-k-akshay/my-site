@@ -35,12 +35,12 @@ export default {
           icon: "https://img.icons8.com/color/48/000000/nodejs.png",
           width: "5em",
         },
-        {
-          title: "Javascript",
-          percentage: 80,
-          icon: "https://img.icons8.com/color/48/000000/javascript--v1.png",
-          width: "5em",
-        },
+        // {
+        //   title: "Javascript",
+        //   percentage: 80,
+        //   icon: "https://img.icons8.com/color/48/000000/javascript--v1.png",
+        //   width: "5em",
+        // },
         {
           title: "Typescript",
           percentage: 80,
@@ -81,7 +81,7 @@ export default {
           title: "Angular",
           percentage: 70,
           icon: "https://img.icons8.com/color/48/000000/angularjs.png",
-          width: "4em",
+          width: "5em",
         },
         {
           title: "GIT",

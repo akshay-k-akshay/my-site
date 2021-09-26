@@ -28,24 +28,48 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
-        <li class="nav-item">
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
           <a class="nav-link js-scroll-trigger" href="#experience"
             >Experience</a
           >
         </li>
-        <li class="nav-item">
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
           <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
         </li>
-        <li class="nav-item">
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
-        <li class="nav-item">
+        <!-- <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
-        <li class="nav-item">
+        </li> -->
+        <li
+          class="nav-item"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+        >
           <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
         </li>
       </ul>

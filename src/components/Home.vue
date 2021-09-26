@@ -6,7 +6,7 @@
     <Experience />
     <Portfolio />
     <Skills />
-    <Awards />
+    <!-- <Awards /> -->
     <Contact />
   </div>
   <Modal />
@@ -18,7 +18,7 @@ import About from "./About.vue";
 import Experience from "./Experience.vue";
 import Portfolio from "./Portfolio.vue";
 import Skills from "./Skills.vue";
-import Awards from "./Awards.vue";
+// import Awards from "./Awards.vue";
 import Contact from "./Contact.vue";
 import Modal from "./Modal.vue";
 export default {
@@ -29,7 +29,7 @@ export default {
     Experience,
     Portfolio,
     Skills,
-    Awards,
+    // Awards,
     Contact,
     Modal,
   },

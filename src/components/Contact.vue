@@ -3,7 +3,7 @@
     <div class="row my-auto" id="contact">
       <div class="col-md-8">
         <div class="contact-cont">
-          <h3>CONTACT Us</h3>
+          <h3>CONTACT</h3>
           <div class="heading-border-light"></div>
           <p>
             It is a long established fact that a reader will be distracted by
@@ -57,7 +57,10 @@
           </div>
           <div class="contact-phone contact-side-desc contact-box-desc">
             <h3><i class="fa fa-phone cl-atlantis fa-2x"></i> Phone</h3>
-            <p>9567520687 <br />9400358030</p>
+            <p>
+              <a href="tel:+919567520687">+91 9567520687</a> <br />
+              <a href="tel:+919400358030">+91 9400358030</a>
+            </p>
           </div>
           <div class="contact-mail contact-side-desc contact-box-desc">
             <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
@@ -67,7 +70,7 @@
                 >akshayk.info01@gmail.com</a
               >
             </address>
-            <ul class="list-inline social-icon-f top-data">
+            <!-- <ul class="list-inline social-icon-f top-data">
               <li>
                 <a href="#" target="_blank"
                   ><i
@@ -92,7 +95,7 @@
                   ></i
                 ></a>
               </li>
-            </ul>
+            </ul> -->
           </div>
         </div>
       </div>
