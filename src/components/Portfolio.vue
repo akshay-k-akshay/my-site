@@ -59,7 +59,7 @@ export default {
           <ul>
           <li>React js </li>
           <li>Firebase
-           <ul>
+          <ul>
           <li>Storage</li>
           <li>Hosting </li>
           <li>Authentication </li>
