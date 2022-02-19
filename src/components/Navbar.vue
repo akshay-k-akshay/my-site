@@ -30,14 +30,14 @@
       <ul class="navbar-nav">
         <li
           class="nav-item"
-          data-toggle="collapse"
+          :data-toggle="isNavbarCollapsed?'collapse':''"
           data-target="#navbarSupportedContent"
         >
           <a class="nav-link js-scroll-trigger" href="#about">About</a>
         </li>
         <li
           class="nav-item"
-          data-toggle="collapse"
+          :data-toggle="isNavbarCollapsed?'collapse':''"
           data-target="#navbarSupportedContent"
         >
           <a class="nav-link js-scroll-trigger" href="#experience"
@@ -46,28 +46,28 @@
         </li>
         <li
           class="nav-item"
-          data-toggle="collapse"
+          :data-toggle="isNavbarCollapsed?'collapse':''"
           data-target="#navbarSupportedContent"
         >
           <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
         </li>
         <li
           class="nav-item"
-          data-toggle="collapse"
+          :data-toggle="isNavbarCollapsed?'collapse':''"
           data-target="#navbarSupportedContent"
         >
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <!-- <li
           class="nav-item"
-          data-toggle="collapse"
+          :data-toggle="isNavbarCollapsed?'collapse':''"
           data-target="#navbarSupportedContent"
         >
           <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
         </li> -->
         <li
           class="nav-item"
-          data-toggle="collapse"
+          :data-toggle="isNavbarCollapsed?'collapse':''"
           data-target="#navbarSupportedContent"
         >
           <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -80,5 +80,17 @@
 <script>
 export default {
   name: "Navbar",
+  data() {
+    return {};
+  },
+  computed: {
+    isNavbarCollapsed() {
+      if (window.innerWidth < 992) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  },
 };
 </script>

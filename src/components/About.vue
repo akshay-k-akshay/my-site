@@ -5,7 +5,9 @@
         {{ user.firstName }}
         <span class="text-primary">{{ user.lastName }}</span>
       </h1>
-      <div class="subheading mb-5">WEB DEVELOPER ( MEAN, MERN, MEVN )</div>
+      <div class="subheading mb-5">
+        FULL STACK DEVELOPER ( MEAN, MERN, MEVN )
+      </div>
       <p class="mb-5" style="max-width: 500px">
         {{ user.description }}
       </p>
