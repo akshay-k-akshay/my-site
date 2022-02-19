@@ -40,6 +40,7 @@
 <script>
 import Modal from "./Modal.vue";
 import ImageSlider from "./ImageSlider.vue";
+import projects from "../data/projects.json";
 export default {
   name: "Portfolio",
   components: {
@@ -48,67 +49,7 @@ export default {
   },
   computed: {
     projects() {
-      return [
-        {
-          id: "1",
-          title: "SHOPPING CART",
-          description: `
-          Simple shopping cart with React js. 
-          Automatic deployment and test like formatting and lint is implemented using Github Actions<br /><br />
-          <span>Technology used</span><br />
-          <ul>
-          <li>React js </li>
-          <li>Firebase
-          <ul>
-          <li>Storage</li>
-          <li>Hosting </li>
-          <li>Authentication </li>
-          <li>Firestore ( Firebase Database )</li>
-          </ul>
-          </li>
-          <li>Github Actions </li>
-          </ul>`,
-          images: [
-            "/img/portfolio/1/1.png",
-            "/img/portfolio/1/2.png",
-            "/img/portfolio/1/3.png",
-            "/img/portfolio/1/4.png",
-          ],
-          link: "https://github.com/akshay-k-akshay/supermarket",
-        },
-        {
-          id: "2",
-          title: "Test Project 2",
-          description: `Our new Project every processes had become fragmented;
-                    meaning quality and service were inconsistent. This lack of
-                    standardization was adversely impacting operating costs,
-                    productivity and customer satisfaction. For several years
-                    now Payfast has worked strategically with innovations as a
-                    means of developing new solutions, products and services. In
-                    line with this vision, Success was approached to find new
-                    payments solutions to offer Payfast customers on their
-                    website, including open invoice and partial payments
-                    options.`,
-          images: ["img/portfolio/p-2.jpg"],
-          link: "#",
-        },
-        {
-          id: "3",
-          title: "Test Project 3",
-          description: `Our new Project every processes had become fragmented;
-                    meaning quality and service were inconsistent. This lack of
-                    standardization was adversely impacting operating costs,
-                    productivity and customer satisfaction. For several years
-                    now Payfast has worked strategically with innovations as a
-                    means of developing new solutions, products and services. In
-                    line with this vision, Success was approached to find new
-                    payments solutions to offer Payfast customers on their
-                    website, including open invoice and partial payments
-                    options.`,
-          images: ["img/portfolio/p-3.jpg"],
-          link: "#",
-        },
-      ];
+      return projects;
     },
   },
   data() {

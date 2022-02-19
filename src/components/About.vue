@@ -73,7 +73,7 @@ export default {
       return {
         firstName: "AKSHAY",
         lastName: "K",
-        description: `I am a self taught developer ( MERN, MEVN, MEAN ) open to challenges. 
+        description: `I am a self taught fullstack developer ( MERN, MEVN, MEAN ) open to challenges. 
         I have seen the worst and best of things which strengthened me as a developer. 
         So I am capable of solving any problem that comes in my way. 
         I would like to play with code.`,
