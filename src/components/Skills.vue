@@ -24,12 +24,13 @@
 </template>
 
 <script>
-import skills from'../data/skills.json'
+import skills from "../data/skills.json";
+
 export default {
   name: "Contact",
   computed: {
     skills() {
-      return skills
+      return skills;
     },
   },
 };

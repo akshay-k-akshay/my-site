@@ -34,20 +34,13 @@
 </template>
 
 <script>
+import experiences from "../data/experiences.json";
+
 export default {
   name: "Experience",
   computed: {
     experiences() {
-      return [
-        {
-          title: "Junior Software Engineer",
-          description: `
-          &ensp;&ensp;&ensp;&ensp;Junior Software Engineer at <b>Codelattice Digital Solutions Pvt Ltd </b>.
-           Developing and Managing Web apps MEAN stack. 
-          `,
-          period: "January 2021 - Present",
-        },
-      ];
+      return experiences;
     },
   },
 };
